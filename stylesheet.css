@@ -82,8 +82,13 @@ input, textarea {
   color: #889eab;
 } 
 
-@media screen and (max-width: 1060px){
-  #primary{width:67%;}
-  #secondary{width:30%; margin-left:3%;}
-  }
+@media only screen and (max-width: 1500px) {
+    aside {
+        margin-top: 20px;
+        width: 100%;
+        padding-left: 0px;    
+    }
+    #content {
+        width: 100%;
+       }
   
